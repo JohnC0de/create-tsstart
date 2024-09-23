@@ -1,0 +1,59 @@
+# TSStart
+
+An opnionated tanstack-start app, using my tsstart template.
+
+## Acknowledgements
+
+- [tss-app - tsstart is mostly based on this project with some personal changes](https://github.com/ally-ahmed/tss-app)
+
+## What's included
+
+- Runtime/Package Manager: bun
+- Client: React + Vite
+- Server: Vinxi
+- RPC: tRPC
+- DB: Drizzle + Libsql
+- Auth: Lucia
+- Route: Tanstack-Router
+- Async: Tanstack-Query
+- Table: Tanstack-Table + Shadcn
+- State: Valtio
+- Form: React-hook-form + zod
+- UI: Shadcn + Tailwindcss
+- Lint/Format: Eslint + Prettier
+- Toast: Sonner
+- Env: t3-oss/env-core
+
+## Getting Started
+
+Its easier to use the CLI to create the project.
+
+### The CLI way
+
+```bash
+bun create tsstart <your-project-name>
+```
+
+Cd to the directory and install dependencies
+
+```bash
+cd <your-project-name>
+bun install
+```
+
+Dont forget to setup the required env variables:
+
+`GITHUB_CLIENT_ID=""`
+`GITHUB_CLIENT_SECRET=""`
+
+Setup the DB by creating the tables with drizzle-kit
+
+```bash
+bun push
+```
+
+Run app
+
+```bash
+bun dev
+```

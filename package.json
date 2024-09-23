@@ -1,0 +1,25 @@
+{
+  "name": "tsstart",
+  "module": "index.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Create a opnionated tanstack-start app",
+  "main": "cli.js",
+  "bin": {
+    "create-tsstart": "./cli.js"
+  },
+  "keywords": [
+    "tanstack-start"
+  ],
+  "author": "JohnC0de",
+  "license": "GNU GPLv3",
+  "dependencies": {
+    "degit": "^2.8.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
